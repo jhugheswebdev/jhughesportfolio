@@ -1,0 +1,158 @@
+
+body {
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    background: #F2F2F0
+    height: 100px;
+    letter-spacing: 2px;
+}
+.sanigo {
+  height: 400px;
+  width: 600px;
+}
+header {
+padding-top: 5px;
+margin-top: -10px;
+}
+h1 {
+  font-size: 100px;
+  padding-top: 0px;
+  margin: -10px 0px -10px 0px;
+}
+
+.webdev {
+  font-size: 60px;
+}
+
+h2 {
+  padding: 0,0,10px,0px;
+}
+
+h3 {
+font-size: 40px;
+padding-top: 30px;
+margin: -10px 0px -10px 0px;
+}
+
+main {
+    color: #fff;
+}
+.headshot {
+display: inline-block;
+border-radius: 1000px;
+}
+
+.worklinks {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  top: 0; bottom:20px; left: 0; right:0;
+  margin: 0 auto;
+  display: inline;
+}
+
+.github {
+  max-width: 85px;
+  margin-top: -3px;
+}
+
+.about {
+  padding: 50px;
+}
+
+.aboutbody {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 130px;
+}
+
+.aboutbody2 {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+}
+
+.pastpics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.past1 {
+  height: 300px;
+  width: 300px;
+}
+
+.past2 {
+  height: 300px;
+  max-width: 300px;
+}
+.past3 {
+  height: 300px;
+  width: 300px;
+}
+
+.skills {
+  padding-top: 80px;
+padding-bottom: 240px;
+}
+
+.skillsheading {
+  font-size: 60px;
+}
+
+.skillset {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 33px;
+  color: rgb(232, 39, 20)
+}
+
+.svg {
+  font-size: 80px;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: inline-grid;
+}
+
+.spacer {
+  margin-top: auto;
+}
+
+.projects {
+  padding-top: 10px;
+  font-size: 60px;
+}
+
+.socialmedia {
+  padding-top: 500px;
+
+}
+
+footer {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    top: 0; bottom:20px; left: 0; right:0;
+    margin: 0 auto;
+    display: inline;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  text-align: left;
+  margin: 20px 40px 20px 40px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
