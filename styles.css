@@ -26,6 +26,7 @@ h1 {
 
 .webdev {
   font-size: 60px;
+  margin: -25px 0px 0px 0px;
 }
 
 h2 {
@@ -41,9 +42,38 @@ margin: -10px 0px -10px 0px;
 main {
     color: #fff;
 }
+
+.button  {
+  color:#ecf0f1;
+  text-decoration:none;
+  border-radius:5px;
+  border:solid 1px #f39c12;
+  background:#e67e22;
+  text-align:center;
+  padding:16px 18px 14px;
+  margin: 5px;
+
+  -webkit-transition: all 0.1s;
+-moz-transition: all 0.1s;
+transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #d35400;
+  -moz-box-shadow: 0px 6px 0px #d35400;
+  box-shadow: 0px 6px 0px #d35400;
+}
+
+.button:active{
+  -webkit-box-shadow: 0px 2px 0px #d35400;
+    -moz-box-shadow: 0px 2px 0px #d35400;
+    box-shadow: 0px 2px 0px #d35400;
+    position:relative;
+    top:4px;
+}
+
 .headshot {
 display: inline-block;
 border-radius: 1000px;
+padding-top: 25px;
 }
 
 .worklinks {
@@ -121,6 +151,7 @@ padding-bottom: 240px;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 50px;
   display: inline-grid;
 }
 
@@ -134,8 +165,12 @@ padding-bottom: 240px;
 }
 
 .socialmedia {
-  padding-top: 500px;
+  padding-top: 200px;
 
+}
+
+.projimage {
+  font-size: 45px;
 }
 
 footer {
